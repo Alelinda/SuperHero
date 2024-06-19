@@ -1,0 +1,59 @@
+body{
+    background-image: url('./superhero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.container{
+    border: black solid 2px;
+    text-align: center;
+    background-color: #afafaa;
+    width: 500px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+h2{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: green;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+button{
+    background-color: green;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: green;
+}
+.sla {
+    background-color: aliceblue;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 2px;
+}
